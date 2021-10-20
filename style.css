@@ -1,0 +1,601 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  /*background: #008080;*/
+  /*opacity: 0.8;*/
+  font-family: "Roboto", sans-serif;
+}
+
+ /*
+  
+  
+  H: 768px -> 0,13020833333333333333333333333333 ->
+  W: 1366px ->  0,07320644216691068814055636896047 ->
+
+ 
+ */
+
+ p.RECULPI{ 
+  position: absolute;
+  height: 5.92%; /*5.9205729166666666666666666666665%*/
+  width: 10.46%; /*10.46339678%*/
+  left: 17.5%; /*17.49926794%*/
+  top: 3.65%; /*3.6458333333333333333333333333332%*/
+  border-radius: nullpx;
+
+ 
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+
+  
+}
+
+p.Simulador{ 
+  position: absolute;
+  height: 6.06%; /*6.05859375%*/
+  width: 11.16%; /*11.15885798%*/
+  left: 17.5%; /*17.49926794%*/
+  top: 9.57%; /*9.56640625%*/
+  border-radius: nullpx;
+  
+
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: right;
+
+
+}
+
+
+p.Rectangle1{
+  position: absolute;
+  
+  height: 100%; 
+  width: 53.51%; /* 53.51390922*/
+  left: 0%;
+  top: 0%;
+
+  background: #008080;
+
+}
+
+p.Rectangle3{
+  position: absolute;
+
+  height: 46.66666667%; /**/
+  width: 30.70278184%; /**/
+  left: 13.28111274%; /**/
+  top: 24.86067708%; /**/
+  border-radius: 0px;
+
+  border: 15px solid #820000;
+  box-sizing: border-box;
+  border-right-width:0px;
+
+}
+
+p.v1 {
+  position: absolute;
+  left: 42.8806735%  ; /**/
+  top: 24.86067708%; /**/
+
+  border-left: 15px solid #820000;
+  height: 45px;
+}
+
+p.v2 {
+  position: absolute;
+  left: 42.8806735%; /**/
+  top: 62.68359375%; /**/
+
+  border-left: 15px solid #820000;
+  height: 45px;
+}
+
+
+
+
+img.pim{
+  position: absolute;
+  height: 100%;
+  width: 46.48609078%; /**/
+  left: 53.51390922%  ; /**/
+  top: 0%;
+  border-radius: 0px;
+
+
+}
+
+img.Logo{
+  position: absolute;
+  height: 9.635416667%; /**/
+  width: 5.636896047%; /**/
+  left: 11.20058565%; /**/
+  top: 3.645833333%; /**/
+  
+  border-radius: 0px;
+
+  
+}
+
+
+img.menu-icon{
+  position: absolute;
+  height: 8.15234375%; /**/
+  width: 4.223279649%; /**/
+  left: 93.88872621%; /**/
+  top: 4.19921875%; /**/
+  border-radius: 0px;
+
+
+  
+}
+
+
+
+p.Rendimiento{
+  font-family: 'Roboto', sans-serif;
+  font-size: 72px;
+  position: absolute;
+  height: 24.30598958%;
+  width: 50.31259151%; 
+  left: 18.82796486%  ;
+  top: 32.72265625%;
+  border-radius: nullpx;
+  color: white;
+
+ 
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 84px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+p.Aprende{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  position: absolute;
+  height: 6.666666667%  ;
+  width: 49.37481698%;
+  left: 18.82796486%  ;
+  top: 57.88932292%  ;
+  border-radius: nullpx;
+ 
+  color: white;
+}
+
+
+
+
+
+p.Empezar{
+  position: absolute;
+  height: 2.916666667%  ;
+  width: 15.31259151%  ;
+  left: 69.14055637%  ; 
+  top: 84.02734375%  ;
+  
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: white;
+
+
+}
+
+
+
+
+p.Rectangle2{
+  position: absolute;
+  
+  height: 9.305989583%;
+  width: 16.17203514%;
+  left: 68.67203514%;
+  top: 80.83333333%;
+
+
+  background: #008080;
+
+}
+
+
+p.Rectangle4{
+  position: absolute;
+  
+  height: 100%; 
+  width: 100%; 
+  left: 0%;
+  top: 0%;
+
+  background: #008080;
+  opacity: 85%;
+
+}
+
+
+h1.Inicio{
+  
+  position: absolute;
+  height: 50.13px;
+  width: 253.99px;
+  left: 311.62px;
+  top: 284.00px;
+  border-radius: nullpx;
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: black;
+}
+
+
+h1.Simulacion{
+  
+  position: absolute;
+  height: 62.93px;
+  width: 253.99px;
+  left: 311.62px;
+  top: 393.87px;
+  border-radius: nullpx;
+
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+  color: black;
+}
+
+
+p.Creditos{
+  position: absolute;
+  height: 187px;
+  width: 313px;
+  left: 722px;
+  top: 181px;
+  border-radius: nullpx;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+  color: black;
+
+
+
+}
+
+
+
+p.Objeto{
+  position: absolute;
+  height: 116px;
+  width: 322px;
+  left: 718px;
+  top: 413px;
+  border-radius: nullpx;
+
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+  color: black;
+
+
+
+}
+
+b{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+p.RectangleBar1{
+  position: absolute;
+
+  height: 138px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+
+  background: #008080;
+
+}
+
+p.RectangleBar2{
+  position: absolute;
+
+  height: 544px;
+  width: 301px;
+  left: 29px;
+  top: 156px;
+  border-radius: 15px;
+
+
+
+  background: #C4C4C4;
+  
+
+}
+
+p.RectangleBar3{
+  position: absolute;
+
+  height: 50px;
+  width: 100%;
+  left: 0px;
+  top: 718px;
+  border-radius: 0px;
+
+
+  background: #000000;
+
+}
+
+p.Valores{
+  position: absolute;
+  height: 33px;
+  width: 190px;
+  left: 84px;
+  top: 176px;
+  border-radius: nullpx;
+
+
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+
+  color: black;
+
+
+
+}
+
+
+p.Line {
+  position: absolute;
+  height: 0px;
+  width: 301px;
+  left: 29px;
+  top: 220px;
+  border-radius: nullpx;
+
+  border: 1px solid #000000;
+}
+
+
+.Cell{
+
+  position: absolute; 
+  
+  /*border-radius: 0px;*/
+
+  border-radius: nullpx;
+ 
+
+}
+
+.Cell input{
+
+  height: 32px;
+  width: 190px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+  
+  border: 0;
+
+  color: #C4C4C4;
+  background: white;
+  
+
+}
+
+.Cell1{
+  
+  left: 84px;
+  top: 229px;
+
+}
+
+
+.Cell2{
+  
+  left: 84px;
+  top: 282px;
+
+
+}
+
+
+.Cell3{
+  
+  left: 84px;
+  top: 333px;
+
+}
+
+
+.Cell4{
+  
+  left: 84px;
+  top: 386px;
+
+}
+
+
+.Cell5{
+  
+  left: 84px;
+  top: 438px;
+
+}
+
+
+.Cell6{
+  
+  left: 84px;
+  top: 492px;
+
+}
+
+
+.Cell7{
+  
+  left: 84px;
+  top: 544px;
+
+}
+
+
+
+.Cell8{
+  
+  left: 84px;
+  top: 596px;
+
+}
+
+
+
+.button{
+  position: absolute;
+  height: 32px;
+  width: 95px;
+  left: 179px;
+  top: 649px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+
+  
+
+  text-decoration: none;
+  display: inline-block;
+  
+  
+  border-radius: 0px;
+
+  background: #008080;
+
+
+}
+
+
+img.Inbox-Empty-icon{
+  position: absolute;
+  height: 90px;
+  width: 107px;
+  left: 715px;
+  top: 296px;
+  border-radius: 0px;
+  
+}
+
+p.SimuladorEmpty{
+  
+  position: absolute;
+  height: 41px;
+  width: 202px;
+  left: 667px;
+  top: 396px;
+  border-radius: nullpx;
+ 
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+}
+
+p.IngreseValores{
+  
+  position: absolute;
+  height: 53px;
+  width: 662px;
+  left: 438px;
+  top: 442px;
+  border-radius: nullpx;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+
+}
+
+
+
