@@ -1,6 +1,7 @@
 const porcen_perdida_phytophthora = 0.8;
 const porcen_perdida_ralstonia = 0.8;
 const porcen_perdida_xanthomonas = 0.7;
+const porcen_perdida_alternaria = 0.3;
 
 
 function CantidadPlantas(densidad, metros_cuadrados, porcen_germinacion) {
