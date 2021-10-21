@@ -409,7 +409,7 @@ p.RectangleBar1{
 p.RectangleBar2{
   position: absolute;
 
-  height: 544px;
+  height: 282px;  /* 544px; */
   width: 301px; 
   left: 29px; 
   top: 156px; 
@@ -428,7 +428,7 @@ p.RectangleBar3{
   height: 50px; 
   width: 100%; 
   left: 0px; 
-  top: 718px; 
+  top: 607px; /*718px;*/ 
   border-radius: 0px;
 
 
@@ -522,6 +522,29 @@ p.Line {
 
 }
 
+.Cell select{
+
+  height: 32px; 
+  width: 190px; 
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+  
+  border: 0;
+
+  color: #686868;
+  background: white; 
+
+}
+
+
 .Cell1{
   
   left: 84px; 
@@ -594,7 +617,7 @@ p.Line {
   height: 32px; 
   width: 95px; 
   left: 179px; 
-  top: 649px; 
+  top: 386px; /*649px;*/ 
 
   font-size: 14px;
   font-style: normal;
@@ -623,7 +646,7 @@ img.Inbox-Empty-icon{
   height: 90px; 
   width: 107px; 
   left: 715px; 
-  top: 296px; 
+  top: 226px; /*296px;*/ 
   border-radius: 0px;
   
 }
@@ -634,7 +657,7 @@ p.SimuladorEmpty{
   height: 41px; 
   width: 202px; 
   left: 667px; 
-  top: 396px; 
+  top: 326px; /*396px;*/
   border-radius: nullpx;
  
   font-size: 24px;
@@ -653,7 +676,7 @@ p.IngreseValores{
   height: 53px; 
   width: 662px; 
   left: 438px; 
-  top: 442px; 
+  top: 372px; /*442px;*/ 
   border-radius: nullpx;
 
   font-size: 18px;
@@ -668,4 +691,115 @@ p.IngreseValores{
 }
 
 
+
+.CuadroResultado{
+  position: absolute;
+
+  height: 282px;
+  width: 900px; 
+  left: 360px; 
+  top: 156px; /*296px; */
+  border-radius: 15px;
+
+
+  /*height: 282px;  
+  width: 301px; 
+  left: 29px; 
+  top: 156px;*/
+
+
+  background: #C4C4C4;
+  
+
+}
+
+
+p.Res1{
+  position: absolute;
+  height: 66px; /**/
+  width: 350px; 
+  left: 50px; 
+  top: 50px; 
+  border-radius: nullpx;
+
+
+
+  font-size: 24px; 
+  font-style: normal;
+  font-weight: 400; 
+  line-height: 28px; 
+  letter-spacing: 0em; 
+  text-align: left;
+
+
+  color: black;
+
+}
+
+p.Res2{
+  position: absolute;
+  height: 66px; 
+  width: 350px; 
+  left: 400px; 
+  top: 50px; 
+  border-radius: nullpx;
+
+
+
+  font-size: 24px; 
+  font-style: normal;
+  font-weight: 400; 
+  line-height: 28px; 
+  letter-spacing: 0em; 
+  text-align: left;
+
+
+  color: black;
+
+}
+
+
+p.Res3{
+  position: absolute;
+  height: 66px; 
+  width: 350px; 
+  left: 50px; 
+  top: 150px; 
+  border-radius: nullpx;
+
+
+
+  font-size: 24px; 
+  font-style: normal;
+  font-weight: 400; 
+  line-height: 28px; 
+  letter-spacing: 0em; 
+  text-align: left;
+
+
+  color: black;
+
+}
+
+p.Res4{
+  position: absolute;
+  height: 66px; 
+  width: 350px; 
+  left: 400px; 
+  top: 150px; 
+  border-radius: nullpx;
+
+
+
+  font-size: 24px; 
+  font-style: normal;
+  font-weight: 400; 
+  line-height: 28px; 
+  letter-spacing: 0em; 
+  text-align: left;
+
+
+  color: black;
+
+}
 
